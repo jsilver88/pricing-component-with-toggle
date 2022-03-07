@@ -84,7 +84,7 @@ ul {
 
 .light-text {
   font-size: 1.5rem;
-  color: var(--Grayish-Blue);
+  color: var(--Light-Grayish-Blue);
 }
 
 /* The switch - the box around the slider */
@@ -253,7 +253,7 @@ input:checked + .slider:before {
 }
 
 /* Mobile */
-@media screen and (max-width: 100rem) {
+@media screen and (max-width: 90rem) {
   body {
     background-position: 1200% 0%;
   }
