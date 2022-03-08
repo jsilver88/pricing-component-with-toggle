@@ -24,8 +24,7 @@ body {
   font-size: 1.6rem;
   background: var(--very-Light-Grayish-Blue) url('../images/bg-top.svg')
     no-repeat;
-  background-position: 100% 0%;
-  background-size: auto;
+  background-position: top right;
 }
 
 img {
@@ -253,10 +252,7 @@ input:checked + .slider:before {
 }
 
 /* Mobile */
-@media screen and (max-width: 80rem) {
-  body {
-    background-position: 1200% 0%;
-  }
+@media screen and (max-width: 768px) {
   .bottom-svg {
     display: none;
   }
