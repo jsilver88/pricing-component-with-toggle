@@ -253,7 +253,7 @@ input:checked + .slider:before {
 }
 
 /* Mobile */
-@media screen and (max-width: 90rem) {
+@media screen and (max-width: 80rem) {
   body {
     background-position: 1200% 0%;
   }
